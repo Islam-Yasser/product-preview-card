@@ -1,0 +1,88 @@
+* {
+  font-family: "Fraunces", serif;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+@media (max-width: 377px) {
+  body {
+    height: 100vh;
+    background-color: hsl(30, 38%, 92%);
+  }
+  .main {
+    position: absolute;
+    margin-left: 1.0625rem;
+    width: 21.3125rem;
+    height: 95%;
+    margin-top: 1rem;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 1rem;
+  }
+  .img {
+    height: calc(100% / 2.2);
+    width: 100%;
+    background-image: url("../images/image-product-mobile.jpg");
+    background-position: center;
+    background-size: cover;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+  }
+  .info {
+    width: 18.5rem;
+    margin-left: 1.625rem;
+    height: 20rem;
+    margin-top: 1.75rem;
+  }
+  .info * {
+    margin-bottom: 1.25rem;
+  }
+  h3 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 14px;
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.489);
+  }
+  h1 {
+    font-family: "Fraunces", serif;
+    font-size: xx-large;
+  }
+  p{
+    font-size: 14px;
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.489);
+  }
+  .money{
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .one{
+    font-family: "Fraunces", serif;
+    color:hsl(158, 36%, 37%);
+    font-size: 2rem;
+  }
+  .two{
+    margin-left:1.25rem ;
+    margin-top: 0.8rem;
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.489);
+  }
+  .butn{
+    /* content: url(../images/icon-cart.svg); */
+    background-color: hsl(158, 36%, 37%);
+    height: 3.125rem;
+    border-radius: 15px;
+    color: white;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .cart{
+    position: absolute;
+    top: 1rem;
+    left: 4.8125rem;
+
+  }
+
+}
